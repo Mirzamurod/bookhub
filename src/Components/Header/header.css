@@ -1,0 +1,26 @@
+#header.main-hero-area {
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0 250px;
+    position: relative;
+    z-index: 1;
+}
+
+#header.main-hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #fff;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+#header .home1-hero-mobile {
+    position: absolute;
+    z-index: 2;
+    width: 128%;
+    right: 0;
+}

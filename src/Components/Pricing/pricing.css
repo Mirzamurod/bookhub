@@ -1,0 +1,75 @@
+#pricing a {
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+#pricing a:hover {
+    border: 1px solid white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pricing li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pricing .single-pricing {
+    padding: 50px 0;
+    box-shadow: 0 0 30px #ededed;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    position: relative;
+}
+
+#pricing .single-pricing.c-active {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: white;
+    background-image: linear-gradient(-90deg, #6da0fc 0, #6881fe 60%, #6367ff 100%);
+}
+
+#pricing .single-pricing.c-active a {
+    color: #575dfb !important;
+    background-color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#pricing .single-pricing:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-image: linear-gradient(-90deg, #6da0fc 0, #6881fe 60%, #6367ff 100%);
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0 / 15%);
+    color: white;
+}

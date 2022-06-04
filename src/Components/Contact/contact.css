@@ -1,0 +1,7 @@
+#contact {
+    z-index: 1;
+}
+
+#contact button {
+    background-image: linear-gradient(0deg, #fc826d 0, #fea268 60%, #ffc163 100%);
+}

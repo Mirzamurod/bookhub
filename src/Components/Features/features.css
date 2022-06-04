@@ -1,0 +1,11 @@
+#features .featured-single {
+    margin-bottom: 35px;
+}
+
+#features .featured-single img {
+    float: left;
+}
+
+#features .featured-single-text {
+    margin-left: 70px;
+}
