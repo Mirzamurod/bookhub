@@ -15,11 +15,11 @@ const Contact = () => {
         <div id='contact' className='counter-area'>
             <Container>
                 <h1 className='text-center text-white mb-3'>Contact US</h1>
-                <h4 className='text-center text-light mb-5'>
+                {/* <h4 className='text-center text-light mb-5'>
                     Most such devices are sold with several apps bundled as pre-installed software,
                     <br />
                     such as a web browser, email client, calendar, mapping program.
-                </h4>
+                </h4> */}
                 <Row>
                     <Col md='6' className='offset-lg-1 h-100'>
                         <Form onSubmit={onSubmit}>
@@ -83,24 +83,24 @@ const Contact = () => {
                                 <div className='mb-4'>
                                     <h5>Phone</h5>
                                     <a
-                                        href='/'
+                                        href='tel:998994766432'
                                         className='text-black text-decoration-none c-blue-hover c-blue'
                                     >
-                                        435 408 9068
+                                        +998994766432
                                     </a>
                                 </div>
                                 <div className='mb-4'>
                                     <h5>Email</h5>
                                     <a
-                                        href='/'
+                                        href=''
                                         className='text-black text-decoration-none c-blue-hover c-blue'
                                     >
-                                        Contact admin
+                                        bookhub@mail.ru
                                     </a>
                                 </div>
                                 <div className='mb-4'>
                                     <h5>Address</h5>
-                                    <p>3145 Beeghley Street Valley Mills Texas 76689</p>
+                                    <p>Uzbekistan Tashkent</p>
                                 </div>
                             </div>
                         </div>

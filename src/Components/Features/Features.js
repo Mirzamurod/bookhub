@@ -10,10 +10,10 @@ const Features = () => {
                 <Row>
                     <Col md='3'>
                         <img
-                            src='https://agro-life.uz/assets/images/img-featured-mobile.png'
+                            src='/images/phone.png'
                             alt='phone'
                             height={600}
-                            className='w-100'
+                            className='w-100 border rounded'
                         />
                     </Col>
                     <Col lg='8' md='12' className='offset-lg-1'>
@@ -21,9 +21,9 @@ const Features = () => {
                         <Row>
                             <Col md='6'>
                                 {[
-                                    'User Friendly',
-                                    'Smooth Typography',
-                                    'Super Fast',
+                                    'Used bookstore',
+                                    'Exchange books',
+                                    'Audio books',
                                     'Creative Design',
                                 ].map((h4, index) => (
                                     <div className='featured-single' key={index}>
@@ -42,8 +42,8 @@ const Features = () => {
                                 {[
                                     'Unlimited Features',
                                     'Easy Installation',
-                                    'Well Documented',
-                                    'Extra Booster',
+                                    'Easy to use',
+                                    'Earn money',
                                 ].map((h4, index) => (
                                     <div className='featured-single' key={index}>
                                         <img

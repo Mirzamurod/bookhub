@@ -6,13 +6,11 @@ const About = () => {
         <div id='about' className='mt-4 mb-5'>
             <Container>
                 <Row>
-                    <Col md='12' className='text-center mb-5'>
+                    <Col md='12' className='text-center'>
                         <h2 className=' pt-2 pb-3'>About the App</h2>
-                        <p className='text-muted'>
-                            "Most such devices are sold with several apps bundled as pre-installed
-                            software, such as a web browser, email client, calendar, mapping
-                            program."
-                        </p>
+                        {/* <p className='text-muted'>
+                            "Our aim to promote reading, selling and exchanging books easily, encourage education, parental  "
+                        </p> */}
                     </Col>
                     {[
                         {
@@ -24,7 +22,7 @@ const About = () => {
                             text: 'Apps that are not preinstalled are usually available through distribution platforms called app stores.',
                         },
                         {
-                            h4: 'Friendly Code',
+                            h4: 'User Friendly',
                             text: 'Apps that are not preinstalled are usually available through distribution platforms called app stores.',
                         },
                     ].map(card => (
